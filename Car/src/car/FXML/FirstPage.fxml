@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="home" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="car.FXML.FirstPageController">
+   <children>
+      <Pane layoutX="-1.0" prefHeight="408.0" prefWidth="152.0" style="-fx-background-color: #6495ED;">
+         <children>
+            <ImageView fitHeight="75.0" fitWidth="71.0" layoutX="39.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/cartoon-car-png-image-f73ab6ddada9c92c6e1aed4dd42957a9-900x0.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="38.0" layoutY="85.0" text="Car Review">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Line endX="30.0" layoutX="101.0" layoutY="116.0" startX="-100.0" />
+            <Label layoutX="42.0" layoutY="139.0" text="Dashboard" />
+            <Button fx:id="homeBtn" layoutX="43.0" layoutY="175.0" mnemonicParsing="false" onAction="#homeButton" style="-fx-background-color: #4169E1;" text="HOME" />
+            <Button fx:id="myCars" layoutX="35.0" layoutY="226.0" mnemonicParsing="false" onAction="#myCarsButton" style="-fx-background-color: #4169E1;" text="MY CARS" />
+            <Button fx:id="about" layoutX="40.0" layoutY="276.0" mnemonicParsing="false" onAction="#aboutButton" style="-fx-background-color: #4169E1;" text="ABOUT" />
+            <Button fx:id="contactUs" layoutX="27.0" layoutY="346.0" mnemonicParsing="false" onAction="#contactUs" style="-fx-background-color: #4169E1;" text="CONTACT US" />
+            <Line endX="30.0" layoutX="106.0" layoutY="320.0" startX="-100.0" />
+            <Label layoutX="106.0" layoutY="230.0" text="0" />
+         </children>
+      </Pane>
+      <AnchorPane fx:id="holderPane" layoutX="128.0" layoutY="14.0" prefHeight="381.0" prefWidth="462.0">
+         <children>
+            
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="homeAnchor" prefHeight="381.0" prefWidth="462.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="car.FXML.VolvoController">
+   <children>
+      <Button fx:id="Volvo" layoutX="73.0" layoutY="33.0" mnemonicParsing="false"  prefHeight="147.0" prefWidth="136.0" text="Button" />
+      <Button fx:id="Maserati" layoutX="260.0" layoutY="33.0" mnemonicParsing="false"  prefHeight="147.0" prefWidth="136.0" text="Button" />
+      <Button fx:id="Benz" layoutX="73.0" layoutY="210.0" mnemonicParsing="false"  prefHeight="147.0" prefWidth="136.0" text="Button" />
+      <Button fx:id="Ferrari" layoutX="260.0" layoutY="210.0" mnemonicParsing="false"  prefHeight="147.0" prefWidth="136.0" text="Button" />
+      <ImageView fitHeight="112.0" fitWidth="136.0" layoutX="73.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/indir%20(7).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="136.0" layoutX="260.0" layoutY="51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/indir%20(5).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="136.0" layoutX="260.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/indir%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="158.0" layoutX="73.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/indir%20(6).jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backBtn" layoutX="396.0" layoutY="14.0" mnemonicParsing="false" onAction="#backButton" text="Back" />
+   </children>
+</AnchorPane>

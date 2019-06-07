@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="381.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="car.FXML.HOMEController">
+   <children>
+      <Button contentDisplay="BOTTOM" layoutX="22.0" layoutY="38.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="188.0" text="Volvo">
+         <graphic>
+            <ImageView fx:id="imVolvo" fitHeight="109.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/indir%20(2).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="BOTTOM" layoutX="239.0" layoutY="206.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="186.0" text="Ferrari">
+         <graphic>
+            <ImageView fx:id="imFerrari" fitHeight="109.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/indir%20(1).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="BOTTOM" layoutX="26.0" layoutY="206.0" mnemonicParsing="false" prefHeight="136.0" prefWidth="175.0" text="Mercedes Benz">
+         <graphic>
+            <ImageView fx:id="imMerc" fitHeight="109.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/indir%20(3).jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button contentDisplay="BOTTOM" layoutX="239.0" layoutY="37.0" mnemonicParsing="false" prefHeight="138.0" prefWidth="194.0" text="Maserati">
+         <graphic>
+            <ImageView fx:id="imMas" fitHeight="109.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/indir.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="LogOut" layoutX="339.0" layoutY="10.0" mnemonicParsing="false" onAction="#logOutButton" style="-fx-background-color: #4169E1;" text="LogOut" />
+      <Button fx:id="exit" layoutX="404.0" layoutY="10.0" mnemonicParsing="false" onAction="#exitButton" style="-fx-background-color: #4169E1;" text="Exit" />
+      <Text fx:id="welcome" layoutX="158.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, " />
+   </children>
+</AnchorPane>
